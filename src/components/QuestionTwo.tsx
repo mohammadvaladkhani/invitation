@@ -25,7 +25,7 @@ export function QuestionTwo({ onConfirm }: QuestionTwoProps) {
     <section className="step-content question-two">
       <div className="copy-stack">
         <p className="kicker">قرارمون کی باشه؟</p>
-        <h2>کی دوست داری ببینمت؟ 📅</h2>
+        <h2>کی دوست داری ببینیم همو؟ 📅</h2>
         <p className="lead">
           یه روز و ساعت انتخاب کن که برات راحت باشه
         </p>

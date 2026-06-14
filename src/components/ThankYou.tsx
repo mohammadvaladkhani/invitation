@@ -10,10 +10,10 @@ export function ThankYou() {
       <div className="copy-stack">
         <p className="kicker">
           <Sparkles aria-hidden="true" size={18} />
-          ثبت شد
+          ارسال شد
         </p>
-        <h2>ممنون! خیلی خوشحالم 🎉</h2>
-        <p className="lead">به زودی باهات تماس می‌گیرم 💕</p>
+        <h2>مرسی ازت! 🎉</h2>
+        <p className="lead">بهت pm میدم 💕</p>
       </div>
     </section>
   );

@@ -11,7 +11,7 @@ type QuestionOneProps = {
   playChime: () => void;
 };
 
-const noAlternatives = ["نه!", "اصلاً!", "فکر نکن!", "نه دیگه!", "ولش کن!"];
+const noAlternatives = ["نه!", "اصلاً!", "بیخیال دیگه!", "فکرشم نکن!", "نه دیگه!", "ولش کن!"];
 
 const distanceToElement = (element: HTMLElement, x: number, y: number) => {
   const rect = element.getBoundingClientRect();
@@ -151,7 +151,7 @@ export function QuestionOne({
     <section className="step-content question-one">
       <div className="copy-stack">
         <p className="kicker">سؤال اصلی</p>
-        <h2>می‌خوای با من دیت بری؟</h2>
+        <h2>می‌خوای با هم بریم دیت؟</h2>
       </div>
 
       <div className="question-actions" aria-label="انتخاب پاسخ">

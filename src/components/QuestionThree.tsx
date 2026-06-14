@@ -25,14 +25,14 @@ export const activityOptions: ActivityOption[] = [
   {
     id: "park",
     emoji: "🌳",
-    label: "قدم زدن توی پارک یا فضای سبز",
+    label: "قدم زدن توی پارک",
     shortLabel: "پارک",
   },
   {
     id: "sport",
     emoji: "🏃",
-    label: "فعالیت ورزشی با هم",
-    shortLabel: "ورزش",
+    label: "بریم کوه😁",
+    shortLabel: "یا یه فعالیت ورزشی دیگه",
   },
   {
     id: "dinner",
@@ -43,14 +43,14 @@ export const activityOptions: ActivityOption[] = [
   {
     id: "movie",
     emoji: "🎬",
-    label: "سینما یا فیلم دیدن",
+    label: "سینما، کنسرت یا اجرای زنده",
     shortLabel: "فیلم",
   },
   {
     id: "night-walk",
-    emoji: "🌙",
-    label: "پیاده‌روی شبانه زیر آسمون",
-    shortLabel: "پیاده‌روی شبانه",
+    emoji: "🤷‍♂️",
+    label: "هیچ کودوم! خودم بهت میگم کجا بریم🙂",
+    shortLabel: "هر جا که تو دوست داری",
   },
 ];
 
@@ -64,7 +64,7 @@ export function QuestionThree({
   return (
     <section className="step-content question-three">
       <div className="copy-stack">
-        <p className="kicker">برنامه دیت</p>
+        <p className="kicker">خب حالا کجا بریم؟</p>
         <h2>دوست داری چجوری وقت بگذرونیم؟ 🎯</h2>
       </div>
 
